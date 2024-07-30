@@ -73,3 +73,27 @@ body {
     width: 100%;
 
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Distribui os itens com espaçamento igual */
+    height: auto; /* Pode ser ajustado conforme necessário */
+    width: 100%; /* Ajuste conforme necessário */
+}
+
+.flexcontainerinfos {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    flex: 1; /* Faz com que esse contêiner ocupe o espaço disponível */
+}
+
+.links img {
+    margin-right: 10px; /* Adiciona espaçamento entre as imagens */
+}
+
+.perfil {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
