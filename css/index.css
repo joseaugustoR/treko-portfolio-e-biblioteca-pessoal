@@ -74,26 +74,75 @@ body {
 
 }
 
+.apresentacao {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 100px;
+
+}
+
 .flex-container {
     display: flex;
-    flex-direction: row; /* Alinha os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-between; /* Distribui os itens com espaçamento igual */
-    height: auto; /* Pode ser ajustado conforme necessário */
-    width: 100%; /* Ajuste conforme necessário */
+    align-items: center;
+    margin: 50px 150px 100px 150px;
+    gap: 80px;
 }
 
-.flexcontainerinfos {
+.flex-container-infos {
     display: flex;
-    flex-direction: column; /* Alinha os itens verticalmente */
-    flex: 1; /* Faz com que esse contêiner ocupe o espaço disponível */
+    flex-direction: column;
+    width: 100%;
 }
 
-.links img {
-    margin-right: 10px; /* Adiciona espaçamento entre as imagens */
+.flex-container-infos h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
-.perfil {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+.flex-container-infos h1 {
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
 }
+
+.flex-container-infos p {
+    font-size: 19px;
+}
+
+.perfil img{
+    width: 600px;
+    height: 600px;
+    border: 5px solid #559e46;
+    border-radius: 6%;
+    box-shadow: 0px 0px 10px #559e46;
+}
+
+.fundo-nome {
+    margin-left: 10px;
+    color: white;
+    background-color: #559e46;
+    padding: 8px;
+    box-shadow: 0px 0px 5px #559e46;
+}
+
+.links {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    gap: 30px;
+}
+
+.logo-info {
+    width: 60px;
+    height: 60px;
+}
+
+.habilidades {
+    background-color: #b3df9d;
+    height: 500px;
+    box-shadow: 0px 0px 10px #559e46;
+
+}
+
+/* APRESENTAÇÃO FIM */
