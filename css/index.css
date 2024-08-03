@@ -30,7 +30,7 @@ body {
 
 .logo {
     font-size: 32px;
-    color: #fff;
+    color: beige;
     text-decoration: none;
     font-weight: 700;
     padding-left: 15px;
@@ -51,7 +51,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 18px;
-    color: #fff;
+    color: beige;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -65,7 +65,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: beige;
     transition: 1s;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .fundo-nome {
     margin-left: 10px;
-    color: white;
+    color: beige;
     background-color: #559e46;
     padding: 8px;
     box-shadow: 0px 0px 5px #559e46;
